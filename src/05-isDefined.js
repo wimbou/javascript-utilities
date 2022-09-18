@@ -4,4 +4,10 @@
  ** @return
  * @param args
  **/
-function isDefined() {}
+export default function isDefined(item) {
+  if (item !== undefined) {
+    return true;
+  } else {
+    return false;
+  }
+}

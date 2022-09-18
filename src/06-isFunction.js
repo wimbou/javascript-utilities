@@ -4,4 +4,10 @@
  ** @return {boolean}
  * @param args
  **/
-function isFunction() {}
+export default function isFunction(myFunction) {
+  if (myFunction instanceof Function) {
+    return true;
+  } else {
+    return false;
+  }
+}

@@ -4,4 +4,10 @@
  ** @return {boolean}
  * @param args
  **/
-function isNumber() {}
+export default function isNumber(number) {
+  if (typeof number === "number") {
+    return true;
+  } else {
+    return false;
+  }
+}

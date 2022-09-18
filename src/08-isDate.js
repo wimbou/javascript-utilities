@@ -4,4 +4,10 @@
  ** @return {boolean}
  * @param args
  **/
-function isDate() {}
+export default function isDate(date) {
+  if (date instanceof Date) {
+    return true;
+  } else {
+    return false;
+  }
+}
